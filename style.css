@@ -43,8 +43,10 @@ a:visited {
 /* SIDEBAR */
 .sidebar {
   flex-basis: 50rem;
+  /* flex-basis: 34vw; */
   background-color: var(--color-dark--1);
   padding: 3rem 5rem 4rem 5rem;
+  /* padding: 3vw 2.5vw 3vw 2.5vw; */
   display: flex;
   flex-direction: column;
 }
@@ -147,6 +149,7 @@ a:visited {
 
 .form__label {
   flex: 0 0 50%;
+  /* flex: 0 0 60%; */
   font-size: 1.5rem;
   font-weight: 600;
 }
